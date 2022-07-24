@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            width: 500px;
+            padding: 7px 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+            border-radius: 5px;
+        }
+        
+        .inp {
+            border: none;
+            outline: none;
+        }
+        
+        .holder {
+            padding: 10px;
+            width: 350px;
+            margin-left: 10px;
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: white;
+        }
+        
+        button {
+            height: 40px;
+            width: 170px;
+            background-color: lightgreen;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<div class="container">
+    <label for="number">Enter the number </label>
+    <div class="holder"><input type="text" class="inp" id="num" placeholder="Insert the number"></div><br>
+
+</div>
+<div class="container">
+    <button id="btn">Find root</button>
+</div>
+
+<body>
+
+
+    <script src="6.js"></script>
+</body>
+
+</html>

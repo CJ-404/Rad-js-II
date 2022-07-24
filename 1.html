@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            padding: 75px 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+            border-radius: 5px;
+        }
+        
+        .inp {
+            border: none;
+            outline: none;
+        }
+        
+        .holder {
+            padding: 2% 1%;
+            margin-top: 2%;
+            width: 350px;
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: white;
+        }
+        
+        button {
+            height: 40px;
+            width: 170px;
+            background-color: lightgreen;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <label for="Name">Name :</label><br>
+            <div class="holder"><input type="text" class="inp" id="name" placeholder="Insert a name.."></div><br>
+            <label for="Town">Hometown :</label><br>
+            <div class="holder"><input type="text" class="inp" id="home" placeholder="Insert home town.."></div><br>
+            <button id="btn">Click</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="1.js"></script>
+</body>
+
+</html>

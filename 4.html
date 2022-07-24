@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            padding: 75px 50px;
+            background-color: rgba(211, 211, 211, 0.518);
+            border-radius: 5px;
+        }
+        
+        .holder2 {
+            display: flex;
+        }
+        
+        .inp {
+            border: none;
+            outline: none;
+        }
+        
+        .holder1 {
+            padding: 2% 1%;
+            margin-top: 2%;
+            width: 350px;
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: white;
+        }
+        
+        p {
+            margin: 10px 0 0 20px;
+            width: 50%;
+        }
+        
+        button {
+            height: 40px;
+            width: 50%;
+            background-color: lightgreen;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <label for="Name">Width :</label><br>
+        <div class="holder1"><input type="text" class="inp" id="width" placeholder="Width : centimeters"></div><br>
+        <label for="marks">Height :</label><br>
+        <div class="holder1"><input type="text" class="inp" id="height" placeholder="Height : centimeters"></div><br>
+        <div class="holder2">
+            <button id="btn">Click</button>
+            <p></p>
+        </div>
+
+    </div>
+
+    <script src="4.js"></script>
+</body>
+
+</html>
